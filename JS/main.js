@@ -10,11 +10,11 @@ elForm.addEventListener('submit', function (evt) {
     evt.preventDefault();
     console.log(elSelect.value);
     if (elSelect.value == "euro") {
-        h1.textContent = (elinput.value / euro).toFixed(2)
+        h1.textContent = (elinput.value / euro).toFixed(3)
     } else if (elSelect.value == "usd") {
-        h1.textContent = (elinput.value / dollar).toFixed(2)
+        h1.textContent = (elinput.value / dollar).toFixed(3)
     } else if (elSelect.value == "rub") {
-        h1.textContent = (elinput.value / rub).toFixed(2)
+        h1.textContent = (elinput.value / rub).toFixed(3)
     } else if (isNaN(elinput)) {
         h1.textContent = "Son kiriting"
     } else if (elinput < 0) {
