@@ -2,7 +2,7 @@ var elForm = document.querySelector(".form")
 var elSelect = document.querySelector(".select")
 var dollar = 11230.37;
 var euro = 11732.37;
-var rubl = 184.82;
+var rub = 184.82;
 var h1 = document.querySelector("h1")
 var elinput = document.querySelector(".input")
 
@@ -14,7 +14,7 @@ elForm.addEventListener('submit', function (evt) {
     } else if (elSelect.value == "usd") {
         h1.textContent = (elinput.value / dollar).toFixed(2)
     } else if (elSelect.value == "rubl") {
-        h1.textContent = (elinput.value / rubl).toFixed(2)
+        h1.textContent = (elinput.value / rub).toFixed(2)
     } else if (isNaN(elinput)) {
         h1.textContent = "Son kiriting"
     } else if (elinput < 0) {
