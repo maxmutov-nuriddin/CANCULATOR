@@ -13,7 +13,7 @@ elForm.addEventListener('submit', function (evt) {
         h1.textContent = (elinput.value / euro).toFixed(2)
     } else if (elSelect.value == "usd") {
         h1.textContent = (elinput.value / dollar).toFixed(2)
-    } else if (elSelect.value == "rubl") {
+    } else if (elSelect.value == "rub") {
         h1.textContent = (elinput.value / rub).toFixed(2)
     } else if (isNaN(elinput)) {
         h1.textContent = "Son kiriting"
