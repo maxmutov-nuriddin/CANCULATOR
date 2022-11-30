@@ -1,8 +1,8 @@
 var elForm = document.querySelector(".form")
 var elSelect = document.querySelector(".select")
-var dollar = 11230.37;
+var dollar = 11203.13;
 var euro = 11732.37;
-var rub = 184.82;
+var rub = 184.75;
 var h1 = document.querySelector("h1")
 var elinput = document.querySelector(".input")
 
